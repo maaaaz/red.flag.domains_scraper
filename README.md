@@ -1,5 +1,5 @@
 redflagdomains_scraper
-=============
+======================
 
 Description
 -----------
@@ -9,7 +9,8 @@ A simple Python script to scrape data from https://red.flag.domains/.
 Usage
 -----
 ```
-$ python3 redflagdomains_scraper.py -h
+$ pip install redflagdomains_scraper
+$ redflagdomains_scraper -h
 usage: redflagdomains_scraper.py [-h] [-i INPUT_URL | -d {today,yesterday} | -a | -f INPUT_FILE] [-o OUTPUT_DIR]
 
 version: 1.2
